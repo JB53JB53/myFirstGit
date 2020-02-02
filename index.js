@@ -1,6 +1,7 @@
 let students = [];
 let position = 0;
 //setDisplay(0)
+//my comment....
 function doSomeTest() {
     students[students.length] = addStudent("TLV", "You", 4)
     students[students.length] = addStudent("po", "he", 14)
