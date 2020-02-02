@@ -1,0 +1,27 @@
+<html lang="en">
+
+<body onload="doSomeTest()">
+    Hello world
+    City<input id="City">
+    FName<input id="FName">
+    Age<input id="Age">
+    <button onclick="students[students.length] =
+        addStudent(
+        document.getElementById('City').value,
+        document.getElementById('FName').value,
+        document.getElementById('Age').value
+        ), console.log(students)">Add</button>
+
+    <button onclick="students[students.length] = addStudentNP()">Add -no param </button>
+    <button onclick="setDisplay(0)">First</button>
+    <button onclick="setDisplay(--position)">Prev</button>
+    <button onclick="setDisplay(++position)">Next</button>
+    <button onclick="setDisplay(students.length-1)">Last</button>
+    <button onclick="doSomeTest()">Test</button>
+
+    <script src="index.js">
+
+    </script>
+</body>
+
+</html>
